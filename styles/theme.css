@@ -76,8 +76,13 @@ dl {
     padding: 0;
 }
 
+ol {
+    line-height: 1.6;
+    text-indent: 1rem;
+}
+
 p,
-li {
+ul {
     line-height: 1.6;
     text-indent: 1rem;
     list-style: none;
@@ -193,6 +198,7 @@ nav ul {
     .container header {
         display: block;
         padding: 0;
+        margin-block-end: 20vh;
     }
 
     .container header div {
@@ -272,11 +278,13 @@ div:nth-child(3) {
 /* Styles Specific to Main content */
 
 .container article {
-    padding-inline: calc(35vw - 200px);
+    display: flex;
+    padding-inline: calc(15vw - 100px);
     margin-block: 2rem;
 }
 
 .container article > div {
+    flex: 1;
     margin: 0.5rem;
     padding: 2rem;
     background-color: rgba(150, 120, 190, 0.2);
@@ -305,6 +313,12 @@ div:nth-child(3) {
     text-align: left;
 }
 
+article.showcase {
+    display: block;
+    padding-inline: calc(35vw - 100px);
+    margin-block: 2rem;
+}
+/*
 .container article div[class="next"] {
     margin: 0 auto;
     inline-size: 300px;
@@ -322,12 +336,13 @@ div:nth-child(3) {
 
 .container div[class="next"]:hover {
     filter: hue-rotate(180deg);
-}
+} */
 
 /* Responsive Main content */
 
 @media screen and (max-width: 600px) {
     .container article {
+        display: block;
         margin: 0;
         padding: 0;
         margin-block: 2rem;
@@ -374,6 +389,15 @@ div:nth-child(3) {
             margin: 0;
             padding: 0;
         }
+    }
+}
+
+/* Styles Specific to discord aside */
+
+div.discord {
+    margin: 10px;
+    iframe {
+        block-size: 500px;
     }
 }
 
