@@ -73,19 +73,15 @@ li,
 dl {
     font-family: Sarabun;
     font-size: 1rem;
-    padding: 0;
 }
 
 ol {
     line-height: 1.6;
-    text-indent: 1rem;
 }
 
 p,
 ul {
     line-height: 1.6;
-    text-indent: 1rem;
-    list-style: none;
 }
 
 a {
@@ -108,6 +104,12 @@ a:focus {
 a:hover {
     text-decoration: underline;
     /* background: rgba(120, 120, 220, 0.2); */
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    text-indent: 1rem;
 }
 
 /* a:hover::before {
@@ -288,6 +290,7 @@ div:nth-child(3) {
     margin: 0.5rem;
     padding: 2rem;
     background-color: rgba(150, 120, 190, 0.2);
+    text-align: center;
 
     ~ h2,
     h3,
@@ -317,6 +320,12 @@ article.showcase {
     display: block;
     padding-inline: calc(35vw - 100px);
     margin-block: 2rem;
+}
+
+article div.footnotes {
+    li {
+        padding: 1rem;
+    }
 }
 /*
 .container article div[class="next"] {
