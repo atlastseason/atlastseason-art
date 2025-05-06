@@ -194,6 +194,29 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    outline-color: transparent;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: black;
+}
+
+nav a:visited {
+    color: rgba(90, 150, 90, 1);
+}
+
+nav a:focus {
+    background: rgba(100, 100, 200, 0.1);
+}
+
+nav a:hover {
+    text-decoration: underline;
+    /* background: rgba(120, 120, 220, 0.2); */
 }
 
 @media screen and (max-width: 600px) {
@@ -313,7 +336,7 @@ div:nth-child(3) {
 }
 
 .container article div:first-child + div {
-    text-align: left;
+    text-align: center;
 }
 
 article.showcase {
