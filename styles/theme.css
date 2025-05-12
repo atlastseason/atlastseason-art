@@ -23,6 +23,7 @@ html {
     background-color: whitesmoke;
     font-size: 18px;
     scroll-behavior: smooth;
+    scroll-padding-top: 25vh;
 }
 
 body {
