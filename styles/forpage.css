@@ -1,31 +1,35 @@
 /* Styles for navigation bar in each page */
 
 .forpage header {
-    position: fixed;
-    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
     justify-content: start;
     margin: 0;
     inline-size: 100%;
     background-color: whitesmoke;
-    padding-block: 1rem;
 }
 
 .forpage header nav {
     margin: 0;
     padding: 0;
     display: flex;
+    padding-block: 1em;
 }
 
 .forpage header ul {
+    inline-size: 100%;
     margin: 0;
     padding: 0;
     display: inherit;
     align-items: baseline;
+    justify-content: space-evenly;
 }
 
 .forpage header li {
     text-indent: 0;
     margin-inline-start: 1rem;
+    text-transform: lowercase;
 }
 
 .forpage header {
@@ -35,7 +39,7 @@
     a {
         margin: 0;
         padding: 0;
-        font-size: 2rem;
+
     }
 }
 
@@ -51,7 +55,6 @@
         h3,
         h4,
         a {
-            font-size: 1.5rem;
         }
     }
 }
@@ -64,6 +67,7 @@
     padding-inline: 5vw;
     margin-block: 2rem;
     padding-inline: calc(20vw - 250px);
+
 }
 
 .container article:first-child {
@@ -86,7 +90,7 @@
 }
 
 .thumbnail {
-    block-size: calc(30vh);
+    block-size: 500px;
 }
 
 /* Responsive Main content */

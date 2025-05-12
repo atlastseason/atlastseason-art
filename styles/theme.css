@@ -22,6 +22,7 @@ html {
     font-family: Sarabun, Helvetica, Verdana, Arial, sans-serif;
     background-color: whitesmoke;
     font-size: 18px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -87,6 +88,7 @@ ul {
 a {
     outline-color: transparent;
     text-decoration: none;
+    color: green;
 }
 
 a:link {
@@ -102,8 +104,10 @@ a:focus {
 }
 
 a:hover {
-    text-decoration: underline;
-    /* background: rgba(120, 120, 220, 0.2); */
+    background: green;
+    color: white;
+    text-decoration: none;
+
 }
 
 .links ul {
@@ -181,8 +185,7 @@ a:active {
 }
 
 nav {
-    position: sticky;
-    top: 0;
+
     justify-content: center;
     margin: 0;
     inline-size: 100%;
@@ -215,7 +218,8 @@ nav a:focus {
 }
 
 nav a:hover {
-    text-decoration: underline;
+
+    background: none;
     /* background: rgba(120, 120, 220, 0.2); */
 }
 

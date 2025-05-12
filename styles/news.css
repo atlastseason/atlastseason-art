@@ -1,0 +1,13 @@
+.news article {
+    padding: 10vw;
+    min-width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+.news article {
+    padding:0;
+    padding-block: 10vh;
+    min-width: 80%;
+}
+
+}

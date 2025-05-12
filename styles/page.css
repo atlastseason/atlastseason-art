@@ -5,3 +5,7 @@
 @import url("panel.css") layer(panel);
 
 @import url("forpage.css") layer(forpage);
+
+@import url("sublink.css") layer(sublink);
+
+@import url("queuelist.css") layer(queuelist);

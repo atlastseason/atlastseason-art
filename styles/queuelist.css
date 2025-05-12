@@ -1,0 +1,46 @@
+.queuelist div {
+    display: flex;
+    align-self: center;
+}
+
+.queuelist img {
+    min-width: 50%;
+    max-width: 80%;
+}
+
+.queuelist ol {
+    padding-inline : 10rem;
+    div {
+    justify-content: space-around;
+    padding-block-end:10px;
+    }
+}
+
+.queuelist a {
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.queuelist ol div > li::marker {
+    font-size: 5em;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 600px) {
+
+    .queuelist div {
+
+    }
+
+    .queuelist ol {
+        padding-inline:2rem;
+        div{
+
+        }
+    }
+
+    .queuelist ol div > li::marker {
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+}
