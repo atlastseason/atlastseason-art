@@ -1,11 +1,23 @@
 .news article {
-    padding: 10vw;
+    margin: 1em;
+    margin-inline: 10vw;
     min-width: 80%;
+    div {
+        margin-block: 2rem;
+    }
 }
+
+.news article div[class=condition] {
+    font-style: italic;
+    text-indent: 2rem;
+
+}
+
 
 @media screen and (max-width: 600px) {
 .news article {
-    padding:0;
+    margin:0;
+    margin-inline: 1em;
     padding-block: 10vh;
     min-width: 80%;
 }
