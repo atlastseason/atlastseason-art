@@ -13,6 +13,25 @@
 
 }
 
+.news article iframe{
+    height: 500px;
+}
+
+.news article p {
+    text-indent: 3em;
+    margin-block-end: 1rem;
+}
+
+.news article div[class=center] {
+    text-align: center;
+    align-items: center;
+    background: rgba(150, 120, 190, 0.2);
+    padding: 1rem;
+    p {
+    text-indent: 0;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
 .news article {
@@ -21,5 +40,10 @@
     padding-block: 10vh;
     min-width: 80%;
 }
+
+.news article iframe{
+    height: 250px;
+}
+
 
 }
