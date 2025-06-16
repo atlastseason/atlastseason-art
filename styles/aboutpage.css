@@ -1,0 +1,32 @@
+.aboutpage {
+    margin: 5rem;
+}
+
+.aboutpage article {
+    display: flex;
+}
+
+.aboutpage img {
+    min-width: 300px;
+}
+
+.aboutpage div {
+    padding: 2rem;
+}
+
+.aboutpage p {
+    text-indent: 3rem;
+}
+
+.aboutpage em {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutpage {
+        margin: 0;
+    }
+    .aboutpage article {
+        display: block;
+    }
+}

@@ -1,0 +1,65 @@
+header {
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    margin: 0;
+    inline-size: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding-block: 1rem;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style: none;
+    text-transform: lowercase;
+}
+
+nav ul ul {
+    display: block;
+}
+
+/* nav ul ul ul {
+    list-style: disclosure-closed;
+    padding-inline: 1rem;
+} */
+
+nav a {
+    outline-color: transparent;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+nav a:link {
+    color: grey;
+}
+
+nav a:visited {
+    color: grey;
+}
+
+nav a:hover {
+    color: black;
+    background: none;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        position: relative;
+    }
+
+    nav > ul {
+        display: block;
+        padding-inline-start: 2rem;
+    }
+    nav a {
+        font-size: 150%;
+    }
+}

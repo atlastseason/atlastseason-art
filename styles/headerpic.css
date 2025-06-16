@@ -1,0 +1,14 @@
+.intro {
+}
+
+.headerpic {
+    display: flex;
+    justify-content: space-around;
+    block-size: 40vh;
+}
+
+.headerpic img {
+    block-size: 100%;
+    min-block-size: 300px;
+    inline-size: 100%;
+}

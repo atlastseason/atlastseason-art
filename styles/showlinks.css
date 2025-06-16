@@ -1,0 +1,57 @@
+.showsection {
+    padding-block: 5rem;
+}
+
+.showlinks {
+    display: flex;
+}
+
+.showlinks div {
+    padding-block: 2rem;
+}
+
+.showlinks > div {
+    inline-size: 400px;
+    padding-inline: 20px;
+    margin: 0 auto;
+    align-self: auto;
+    text-align: center;
+}
+
+.showlinks div:last-child {
+    border: none;
+}
+
+.showlinks h3 {
+    min-block-size: 100px;
+}
+
+.animatedhover {
+}
+
+.animatedhover a img {
+    transform: scale(1, 1);
+    transition: 0.2s;
+}
+
+.animatedhover a:hover img {
+    transform: scale(120%);
+}
+
+.animatedhover a:hover {
+    background: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .showlinks {
+        display: block;
+    }
+    .showlinks > div {
+        padding: 0;
+        padding-block-end: 3rem;
+    }
+
+    .showlinks h3 {
+        min-block-size: 80px;
+    }
+}

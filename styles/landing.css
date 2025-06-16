@@ -7,3 +7,10 @@
 @import url("blueskyfeed.css") layer(blueskyfeed);
 
 @import url("news.css") layer(news);
+
+@import url(sociallinks.css) layer(sociallinks);
+
+@import url(showlinks.css) layer(showlinks);
+
+@import url(headerpic.css) layer(headerpic);
+@import url(navglobal.css) layer(navglobal);
