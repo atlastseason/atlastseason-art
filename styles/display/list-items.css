@@ -1,0 +1,17 @@
+.list-items {
+    list-style: none;
+    align-items: center;
+}
+
+.list-items:hover {
+    background: none;
+}
+
+.list-items a:hover {
+    background: none;
+}
+
+.list-items li {
+    inline-size: 40px;
+    margin: 10px;
+}

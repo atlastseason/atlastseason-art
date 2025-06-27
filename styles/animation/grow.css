@@ -1,0 +1,7 @@
+.grow {
+    scale: 1;
+}
+
+.grow:hover {
+    scale: 1.25;
+}

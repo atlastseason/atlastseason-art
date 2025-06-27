@@ -15,7 +15,7 @@ For Div
 
 * {
     margin: 0;
-    paddig: 0;
+    padding: 0;
 }
 
 html {
@@ -31,14 +31,12 @@ body {
 
 img,
 picture,
-video {
-    max-inline-size: 100%;
+video,
+svg {
+    inline-size: 100%;
 }
 
 iframe {
-    inline-size: 100%;
-    block-size: 100%;
-    border: 0;
 }
 
 h1,
@@ -134,9 +132,6 @@ a:active {
 
 /* container/div for Responsive Design */
 
-.container {
-}
-
 .container div {
     /* flex: 1 auto; */
 }
@@ -197,71 +192,6 @@ a:active {
     }
 
     .container header div:last-child {
-    }
-}
-
-/* Styles Specific to Footer */
-
-.container footer {
-    display: flex;
-    font-family: sans-serif;
-    font-weight: lighter;
-    color: white;
-    background: rgba(170, 120, 250, 1);
-    padding-block: 5vh;
-    line-height: 2rem;
-    justify-content: center;
-}
-
-.container footer > div {
-    padding-inline: 2vw;
-    padding-block-end: 2vh;
-    flex: 1;
-}
-
-.container footer div:nth-child(2),
-div:nth-child(3) {
-}
-
-.container footer div:last-child {
-    p {
-        font-size: 0.8rem;
-    }
-}
-
-.container footer div h4 {
-    font-weight: bold;
-}
-
-.container footer div p {
-    font-style: italic;
-    text-indent: 0;
-}
-
-.container footer div li {
-    list-style: none;
-    text-indent: 0;
-}
-
-.container footer div a {
-    color: white;
-}
-
-.container footer div a:hover {
-}
-
-@media screen and (max-width: 600px) {
-    .container footer {
-        display: block;
-        text-align: center;
-    }
-
-    .container footer div {
-        margin-block: 2rem;
-    }
-
-    .container footer div a {
-        line-height: 2rem;
     }
 }
 

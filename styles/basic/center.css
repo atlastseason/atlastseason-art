@@ -1,0 +1,16 @@
+.text-center {
+    text-align: center;
+}
+
+.flex-center {
+    justify-self: center;
+    align-items: center;
+}
+
+.grid-center {
+    place-items: center;
+}
+
+.block-center {
+    margin: auto;
+}

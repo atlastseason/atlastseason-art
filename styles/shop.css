@@ -1,0 +1,33 @@
+.shop {
+    text-align: center;
+    inline-size: 60%;
+    margin: 0 auto;
+    padding-block: 80px;
+}
+
+.shop article > div {
+}
+
+.shopitem {
+    margin: 0 auto;
+    display: grid;
+    grid: repeat(2, 300px) / auto-flow 300px;
+    gap: 50px;
+    justify-content: space-around;
+    padding-block: 2rem;
+}
+
+.shopitem div {
+}
+
+@media screen and (max-width: 1000px) {
+    .shop {
+        padding: 0;
+
+        inline-size: unset;
+    }
+
+    .shopitem {
+        display: block;
+    }
+}

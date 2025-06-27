@@ -14,3 +14,7 @@
 
 @import url(navglobal.css) layer(navglobal);
 @import url(aboutpage.css) layer(aboutpage);
+
+@import url(showlinks.css) layer(showlinks);
+@import url(intro.css) layer(intro);
+@import url(shop.css) layer(shop);

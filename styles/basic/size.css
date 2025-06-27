@@ -1,0 +1,45 @@
+.big {
+    inline-size: 80%;
+    block-size: 100px;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.big-logo {
+    inline-size: 400px;
+}
+
+.normal {
+    inline-size: 300px;
+}
+
+.small {
+    inline-size: 50px;
+}
+
+.fit {
+    inline-size: 100%;
+    min-inline-size: 150px;
+}
+
+.half {
+    max-inline-size: 500px;
+}
+
+.flex-one {
+    flex: 1;
+}
+
+.flex-two {
+    flex: 2;
+}
+
+.grid-two {
+    grid: repeat(2, 60px) / auto-flow 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .half {
+        inline-size: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+.container {
+    padding-inline: 1rem;
+}
+
+.read {
+    padding-inline: 200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.feature {
+    padding-block: 3rem;
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.margin-bottom {
+    margin-block-end: 1rem;
+}
+
+.padding-bottom {
+    padding-block-end: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .mobile-block {
+        display: block;
+    }
+    .mobile-grid {
+        display: grid;
+    }
+    .mobile-center {
+        text-align: center;
+    }
+    .container {
+    }
+
+    .read {
+        padding: 0;
+    }
+}

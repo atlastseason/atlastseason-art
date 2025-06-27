@@ -1,0 +1,10 @@
+.turn {
+    rotate: none;
+}
+.turn:hover {
+    rotate: 10deg;
+}
+
+.turn:active {
+    rotate: 0deg;
+}

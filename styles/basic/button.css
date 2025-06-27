@@ -1,0 +1,17 @@
+.button {
+    padding: 10px;
+    background-color: unset;
+}
+
+.button:hover {
+    background-color: unset;
+}
+
+.button-logo {
+    border: none;
+    background-color: unset;
+}
+
+.button-border {
+    border: 2px solid black;
+}

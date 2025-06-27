@@ -1,0 +1,64 @@
+/* Styles Specific to Footer */
+
+footer {
+    display: flex;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+    background: rgba(170, 120, 250, 1);
+    padding-block: 5vh;
+    line-height: 2rem;
+    justify-content: center;
+}
+
+footer > div {
+    padding-inline: 2vw;
+    padding-block-end: 2vh;
+    flex: 1;
+}
+
+footer div:nth-child(2),
+div:nth-child(3) {
+}
+
+footer div:last-child {
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+footer div h4 {
+    font-weight: bold;
+}
+
+footer div p {
+    font-style: italic;
+    text-indent: 0;
+}
+
+footer div li {
+    list-style: none;
+    text-indent: 0;
+}
+
+footer div a {
+    color: white;
+}
+
+footer div a:hover {
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer div {
+        margin-block: 2rem;
+    }
+
+    footer div a {
+        line-height: 2rem;
+    }
+}

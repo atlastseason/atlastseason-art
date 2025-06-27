@@ -1,4 +1,4 @@
-@layer theme, panel, blueskyfeed;
+@layer theme;
 
 @import url("theme.css") layer(theme);
 
@@ -14,3 +14,20 @@
 
 @import url(headerpic.css) layer(headerpic);
 @import url(navglobal.css) layer(navglobal);
+
+@import url(display/display.css) layer(display);
+@import url(display/list-items.css) layer(list-items);
+
+@import url(basic/footer.css) layer(footer);
+@import url(basic/button.css) layer(button);
+@import url(basic/size.css) layer(size);
+
+@import url(basic/center.css) layer(center);
+
+@import url(animation/animated.css) layer(animated);
+@import url(animation/grow.css) layer(grow);
+@import url(animation/turn.css) layer(turn);
+@import url(animation/opacity-transition.css) layer(opacity-transition);
+
+@import url(ci/color.css) layer(color);
+@import url(ci/font.css) layer(font);
