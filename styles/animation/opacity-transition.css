@@ -5,3 +5,9 @@
 .opacity-transition:hover {
     opacity: 1;
 }
+
+@media screen and (max-width: 600px) {
+    .opacity-transition {
+        opacity: unset;
+    }
+}

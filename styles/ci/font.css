@@ -5,3 +5,7 @@
 .font-lowercase {
     text-transform: lowercase;
 }
+
+.small-font {
+    font-size: 0.8rem;
+}

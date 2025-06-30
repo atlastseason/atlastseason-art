@@ -14,8 +14,7 @@ For Div
 /* General Styles */
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: unset;
 }
 
 html {
@@ -49,15 +48,16 @@ h4 {
 
 h1 {
     /*Using calc to adjust size to screen width*/
-    font-size: calc(2rem + 2vw);
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: calc(1.5rem + 2vw);
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
 h3 {
-    font-size: calc(1.25rem + 1vw);
+    font-size: 1.25rem;
     font-weight: lighter;
 }
 
@@ -72,7 +72,6 @@ ol,
 li,
 dl {
     font-family: Sarabun;
-    font-size: 1rem;
 }
 
 ol {
@@ -106,6 +105,10 @@ a:hover {
     background: green;
     color: white;
     text-decoration: none;
+}
+
+blockquote {
+    background-color: beige;
 }
 
 .links ul {
@@ -288,7 +291,6 @@ article div.footnotes {
     }
 
     .container article div li {
-        text-indent: 0;
     }
 
     .container article div a {

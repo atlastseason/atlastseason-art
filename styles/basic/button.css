@@ -12,6 +12,13 @@
     background-color: unset;
 }
 
-.button-border {
+.button-box {
     border: 2px solid black;
+}
+
+@media screen and (max-width: 600px) {
+    .button-main {
+        inline-size: 150px;
+        block-size: 150px;
+    }
 }

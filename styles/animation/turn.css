@@ -2,9 +2,9 @@
     rotate: none;
 }
 .turn:hover {
-    rotate: 10deg;
+    rotate: 3deg;
 }
 
 .turn:active {
-    rotate: 0deg;
+    rotate: 10deg;
 }

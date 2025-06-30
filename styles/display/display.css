@@ -1,21 +1,50 @@
 .container {
     padding-inline: 1rem;
+    padding-block: 1rem;
+}
+
+.round-box {
+    border-radius: 20px;
 }
 
 .read {
-    padding-inline: 200px;
+    padding-inline: 1rem;
 }
 
 .flex {
     display: flex;
 }
 
+.divider {
+    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+}
+
+.full-page {
+    block-size: 90vh;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-baseline {
+    justify-content: baseline;
+}
+
 .justify-around {
     justify-content: space-around;
 }
 
+.justify-even {
+    justify-content: space-evenly;
+}
+
 .feature {
-    padding-block: 3rem;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .gap {
@@ -30,20 +59,37 @@
     padding-block-end: 1rem;
 }
 
+.padding-breathe {
+    padding-block-end: 4rem;
+}
+
+@media screen and (max-width: 1280px) {
+    .mobile-grid {
+        display: grid;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .mobile-block {
         display: block;
     }
-    .mobile-grid {
-        display: grid;
+    .mobile-flex {
+        flex-direction: column;
     }
+
     .mobile-center {
         text-align: center;
     }
-    .container {
-    }
 
     .read {
-        padding: 0;
+        padding-inline: unset;
+    }
+
+    .feature {
+        inline-size: unset;
+    }
+
+    .container {
+        padding-inline: 0.5rem;
     }
 }

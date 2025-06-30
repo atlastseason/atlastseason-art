@@ -9,3 +9,11 @@
 .white-text {
     color: white;
 }
+
+.white-bg {
+    background: white;
+}
+
+.wip:active {
+    background: grey;
+}

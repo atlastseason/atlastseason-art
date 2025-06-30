@@ -1,16 +1,31 @@
-.big {
-    inline-size: 80%;
-    block-size: 100px;
-    margin: 10px;
-    font-size: 2rem;
+.square {
+    aspect-ratio: 1/1;
 }
 
-.big-logo {
+.large {
+    inline-size: 800px;
+}
+
+.big {
+    inline-size: 600px;
+}
+
+.great {
     inline-size: 400px;
 }
 
-.normal {
+.chonk {
     inline-size: 300px;
+}
+
+.normal {
+    inline-size: 200px;
+    block-size: auto;
+}
+
+.compact {
+    inline-size: 140px;
+    block-size: auto;
 }
 
 .small {
@@ -23,7 +38,7 @@
 }
 
 .half {
-    max-inline-size: 500px;
+    inline-size: 50%;
 }
 
 .flex-one {
@@ -34,12 +49,26 @@
     flex: 2;
 }
 
-.grid-two {
-    grid: repeat(2, 60px) / auto-flow 80px;
+.grid-columns-two {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-columns-four {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 600px) {
     .half {
         inline-size: 100%;
+    }
+
+    .large,
+    .big,
+    .great,
+    .normal {
+        inline-size: 100%;
+    }
+    .mobile {
+        inline-size: calc(40vw - 10px);
     }
 }
