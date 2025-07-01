@@ -1,5 +1,4 @@
 .turn {
-    rotate: none;
 }
 .turn:hover {
     rotate: 3deg;

@@ -1,13 +1,27 @@
+:root {
+    --main-green: #4cac49ff;
+    --main-purple: #925ebf;
+    --main-grey: rgba(0, 0, 0, 0.3);
+}
+
 .main-color {
-    background: #4cac49ff;
+    background: var(--main-green);
 }
 
 .accent-color {
-    border-color: #ff00ffff;
+    border-color: var(--main-purple);
+}
+
+.button:active {
+    background: var(--main-purple);
 }
 
 .white-text {
     color: white;
+}
+
+.grey-text {
+    color: var(--main-grey);
 }
 
 .white-bg {
@@ -15,5 +29,25 @@
 }
 
 .wip:active {
+    background: var(--main-grey);
+}
+
+.half-white-bg {
+    background: lightgrey;
+}
+
+.black-bg {
+    background: black;
+}
+
+.grey-bg {
     background: grey;
+}
+
+.purple-bg {
+    background: var(--main-purple);
+}
+
+.transparent {
+    opacity: 0.4;
 }

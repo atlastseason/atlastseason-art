@@ -86,7 +86,7 @@ ul {
 a {
     outline-color: transparent;
     text-decoration: none;
-    color: green;
+    color: var(--main-color);
 }
 
 a:link {
@@ -94,16 +94,16 @@ a:link {
 }
 
 a:visited {
-    color: rgba(90, 150, 90, 1);
+    color: var(--main-color);
 }
 
 a:focus {
-    background: rgba(100, 100, 200, 0.1);
+    background: var(--main-grey);
 }
 
 a:hover {
-    background: green;
-    color: white;
+    background: var(--main-color);
+
     text-decoration: none;
 }
 

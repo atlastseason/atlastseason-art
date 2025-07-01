@@ -1,35 +1,59 @@
+:root {
+    --large: 800px;
+    --big: 600px;
+    --great: 400px;
+    --chonk: 300px;
+    --normal: 200px;
+    --compact: 140px;
+    --small: 50px;
+}
+
 .square {
     aspect-ratio: 1/1;
 }
 
 .large {
-    inline-size: 800px;
+    inline-size: var(--large);
 }
 
 .big {
-    inline-size: 600px;
+    inline-size: var(--big);
 }
 
 .great {
-    inline-size: 400px;
+    inline-size: var(--great);
+}
+
+.great-block {
+    block-size: var(--great);
 }
 
 .chonk {
-    inline-size: 300px;
+    inline-size: var(--chonk);
 }
 
 .normal {
-    inline-size: 200px;
-    block-size: auto;
+    inline-size: var(--normal);
+}
+
+.normal-block {
+    block-size: var(--normal);
 }
 
 .compact {
-    inline-size: 140px;
-    block-size: auto;
+    inline-size: var(--compact);
+}
+
+.compact-block {
+    block-size: var(--compact);
 }
 
 .small {
-    inline-size: 50px;
+    inline-size: var(--small);
+}
+
+.small-block {
+    block-size: var(--small);
 }
 
 .fit {
@@ -65,6 +89,7 @@
     .large,
     .big,
     .great,
+    .great-block,
     .normal {
         inline-size: 100%;
     }

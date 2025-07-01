@@ -11,6 +11,10 @@
     padding-inline: 1rem;
 }
 
+.tipped {
+    rotate: 2deg;
+}
+
 .flex {
     display: flex;
 }
@@ -32,12 +36,20 @@
     justify-content: baseline;
 }
 
+.flex-end {
+    justify-content: flex-end;
+}
+
 .justify-around {
     justify-content: space-around;
 }
 
 .justify-even {
     justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .feature {
@@ -53,6 +65,14 @@
 
 .margin-bottom {
     margin-block-end: 1rem;
+}
+
+.margin-breathe {
+    margin-block-end: 4rem;
+}
+
+.padding-top {
+    padding-block-start: 1rem;
 }
 
 .padding-bottom {

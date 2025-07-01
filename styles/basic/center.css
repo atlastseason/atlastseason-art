@@ -3,8 +3,11 @@
 }
 
 .flex-center {
-    justify-self: center;
     align-items: center;
+}
+
+.justify-center {
+    justify-self: center;
 }
 
 .grid-center {

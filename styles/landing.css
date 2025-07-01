@@ -1,18 +1,8 @@
-@layer theme display center;
+@layer theme, ci, display,button,animated;
 
-@import url("theme.css") layer(theme);
-
-@import url("panel.css") layer(panel);
-
-@import url("blueskyfeed.css") layer(blueskyfeed);
-
-@import url("news.css") layer(news);
-
-@import url(sociallinks.css) layer(sociallinks);
-
-@import url(showlinks.css) layer(showlinks);
-
-@import url(headerpic.css) layer(headerpic);
+@import url(theme.css) layer(theme);
+@import url(ci/color.css) layer(color);
+@import url(ci/font.css) layer(font);
 
 @import url(basic/center.css) layer(center);
 @import url(display/display.css) layer(display);
@@ -26,6 +16,3 @@
 @import url(animation/grow.css) layer(grow);
 @import url(animation/turn.css) layer(turn);
 @import url(animation/opacity-transition.css) layer(opacity-transition);
-
-@import url(ci/color.css) layer(color);
-@import url(ci/font.css) layer(font);

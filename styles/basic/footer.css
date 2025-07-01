@@ -5,7 +5,7 @@ footer {
     font-family: sans-serif;
     font-weight: lighter;
     color: white;
-    background: rgba(170, 120, 250, 1);
+    background: var(--main-purple);
     padding-block: 5vh;
     line-height: 2rem;
     justify-content: center;
