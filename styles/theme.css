@@ -86,29 +86,10 @@ ul {
 a {
     outline-color: transparent;
     text-decoration: none;
-    color: var(--main-color);
-}
-
-a:link {
-    color:;
-}
-
-a:visited {
-    color: var(--main-color);
-}
-
-a:focus {
-    background: var(--main-grey);
 }
 
 a:hover {
-    background: var(--main-color);
-
     text-decoration: none;
-}
-
-blockquote {
-    background-color: beige;
 }
 
 .links ul {
@@ -121,11 +102,6 @@ blockquote {
     content: "☞ ";
     margin-inline-start: -1rem;
 } */
-
-a:active {
-    color: rgba(170, 120, 250, 1);
-    background: rgb(120, 200, 120, 0.8);
-}
 
 @media screen and (max-width: 600px) {
     html {
