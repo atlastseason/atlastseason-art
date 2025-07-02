@@ -4,18 +4,6 @@
     --main-grey: rgba(0, 0, 0, 0.3);
 }
 
-.main-color {
-    background: var(--main-green);
-}
-
-.accent-color {
-    border-color: var(--main-purple);
-}
-
-.button:active {
-    background: var(--main-purple);
-}
-
 .white-text {
     color: white;
 }
@@ -26,10 +14,6 @@
 
 .white-bg {
     background: white;
-}
-
-.wip:active {
-    background: var(--main-grey);
 }
 
 .half-white-bg {
@@ -72,10 +56,37 @@ a:hover {
     background: var(--main-green);
 }
 
-a:active {
+blockquote {
+    background-color: beige;
+}
+
+.button-logo:hover {
+    background-color: unset;
+}
+
+.button:hover {
+}
+
+.button {
+}
+
+a:active,
+.button:active {
     background: var(--main-purple);
 }
 
-blockquote {
-    background-color: beige;
+.main-color {
+    background: var(--main-green);
+}
+
+.accent-color {
+    border-color: var(--main-purple);
+}
+
+.button:active {
+    background: var(--main-purple);
+}
+
+.wip:active {
+    background: var(--main-grey);
 }

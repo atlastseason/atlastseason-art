@@ -5,3 +5,7 @@
 .grow:hover {
     scale: 1.1;
 }
+
+.grow:active {
+    scale: 1;
+}
