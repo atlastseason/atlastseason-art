@@ -1,35 +1,8 @@
 :root {
     --main-green: #4cac49ff;
     --main-purple: #925ebf;
-    --main-grey: rgba(0, 0, 0, 0.3);
-}
-
-.white-text {
-    color: white;
-}
-
-.grey-text {
-    color: var(--main-grey);
-}
-
-.white-bg {
-    background: white;
-}
-
-.half-white-bg {
-    background: lightgrey;
-}
-
-.black-bg {
-    background: black;
-}
-
-.grey-bg {
-    background: grey;
-}
-
-.purple-bg {
-    background: var(--main-purple);
+    --main-grey: rgba(150, 200, 156, 0.8);
+    --light-grey: rgba(204, 230, 202, 0.5);
 }
 
 .transparent {
@@ -37,10 +10,6 @@
 }
 
 a {
-    color: var(--main-green);
-}
-
-a:link {
     color: var(--main-green);
 }
 
@@ -89,4 +58,32 @@ a:active,
 
 .wip:active {
     background: var(--main-grey);
+}
+
+.white-text {
+    color: white;
+}
+
+.grey-text {
+    color: var(--main-grey);
+}
+
+.white-bg {
+    background: white;
+}
+
+.half-white-bg {
+    background: lightgrey;
+}
+
+.black-bg {
+    background: black;
+}
+
+.grey-bg {
+    background: grey;
+}
+
+.purple-bg {
+    background: var(--main-purple);
 }

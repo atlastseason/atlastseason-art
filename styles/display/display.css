@@ -1,6 +1,11 @@
 .container {
-    padding-inline: 1rem;
-    padding-block: 1rem;
+    padding-inline: 16px;
+    padding-block: 16px;
+}
+
+.box {
+    border: 1px solid var(--light-grey);
+    background-color: var(--light-grey);
 }
 
 .round-box {
@@ -53,8 +58,6 @@
 }
 
 .feature {
-    padding-left: auto;
-    padding-right: auto;
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
@@ -110,6 +113,7 @@
     }
 
     .container {
-        padding-inline: 0.5rem;
+        padding-inline: 8px;
+        padding-block: 8px;
     }
 }

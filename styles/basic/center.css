@@ -2,16 +2,16 @@
     text-align: center;
 }
 
-.flex-center {
+.align-center {
     align-items: center;
 }
 
-.justify-center {
+.self-center {
     justify-self: center;
 }
 
 .grid-center {
-    place-items: center;
+    justify-items: center;
 }
 
 .block-center {
