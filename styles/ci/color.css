@@ -87,3 +87,7 @@ a:active,
 .purple-bg {
     background: var(--main-purple);
 }
+
+.green-bg {
+    background: var(--main-green);
+}

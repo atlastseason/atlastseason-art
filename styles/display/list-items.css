@@ -1,7 +1,10 @@
 .list-items {
+    display: flex;
     padding: 0;
     list-style: none;
     align-items: center;
+    gap: 16px;
+    line-height: unset;
 }
 
 .list-items:hover {
@@ -13,6 +16,5 @@
 }
 
 .list-items li {
-    inline-size: 40px;
-    margin: 10px;
+    inline-size: var(--tiny);
 }

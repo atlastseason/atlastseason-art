@@ -11,9 +11,39 @@
 }
 
 .click-expand {
-    position: absolute;
-    bottom: 25px;
-    left: 5px;
+    cursor: zoom-in;
+}
+
+.hover-click {
+    cursor: pointer;
+}
+
+details:first-of-type summary::marker,
+:is(::-webkit-details-marker) {
+    content: "+ ";
+    font-family: monospace;
+    color: red;
+    font-weight: bold;
+}
+
+details[open]:first-of-type summary::marker {
+    content: "− ";
+}
+
+details:last-of-type summary {
+    list-style: none;
+    &::before {
+        content: "+ more";
+        color: var(--main-green);
+
+        padding: 0 5px;
+    }
+    [open] &::before {
+        content: "− less";
+    }
+}
+details:last-of-type summary::-webkit-details-marker {
+    display: none;
 }
 
 @media screen and (max-width: 600px) {

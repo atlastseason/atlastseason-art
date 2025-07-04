@@ -7,6 +7,7 @@
     --compact: 160px;
     --petite: 80px;
     --small: 40px;
+    --tiny: 20px;
     --fit: 100%;
 }
 
@@ -66,6 +67,10 @@
     block-size: var(--small);
 }
 
+.tiny {
+    inline-size: var(--tiny);
+}
+
 .fit-inline {
     inline-size: 100%;
 }
@@ -112,7 +117,6 @@
     .large,
     .big,
     .great,
-    .great-block,
     .normal {
         inline-size: 100%;
     }

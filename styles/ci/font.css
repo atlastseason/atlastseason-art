@@ -9,3 +9,7 @@
 .font-light {
     font-weight: lighter;
 }
+
+.text-right {
+    text-align: right;
+}

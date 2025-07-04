@@ -74,6 +74,10 @@
     margin-block-end: 4rem;
 }
 
+.margin-all {
+    margin: 1rem;
+}
+
 .padding-top {
     padding-block-start: 1rem;
 }
@@ -84,6 +88,10 @@
 
 .padding-breathe {
     padding-block-end: 4rem;
+}
+
+.padding-all {
+    padding: 1rem;
 }
 
 @media screen and (max-width: 1280px) {
@@ -108,12 +116,16 @@
         padding-inline: unset;
     }
 
+    /* .container {
+        padding-inline: 8px;
+        padding-block: 8px;
+    } */
+
     .feature {
         inline-size: unset;
     }
 
-    .container {
-        padding-inline: 8px;
-        padding-block: 8px;
+    .padding-breathe {
+        padding-block-end: 2rem;
     }
 }
