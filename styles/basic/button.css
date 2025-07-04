@@ -18,18 +18,6 @@
     cursor: pointer;
 }
 
-details:first-of-type summary::marker,
-:is(::-webkit-details-marker) {
-    content: "+ ";
-    font-family: monospace;
-    color: red;
-    font-weight: bold;
-}
-
-details[open]:first-of-type summary::marker {
-    content: "− ";
-}
-
 details:last-of-type summary {
     list-style: none;
     &::before {
