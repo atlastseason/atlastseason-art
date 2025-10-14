@@ -15,4 +15,5 @@
 @import url(animation/animated.css) layer(animated);
 @import url(animation/grow.css) layer(grow);
 @import url(animation/turn.css) layer(turn);
+@import url(animation/turn-loop.css) layer(turn-loop);
 @import url(animation/opacity-transition.css) layer(opacity-transition);
