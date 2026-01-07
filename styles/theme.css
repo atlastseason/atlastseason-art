@@ -14,8 +14,7 @@ For Div
 /* General Styles */
 
 * {
-    margin: 0;
-    paddig: 0;
+    margin: unset;
 }
 
 html {
@@ -31,14 +30,12 @@ body {
 
 img,
 picture,
-video {
-    max-inline-size: 100%;
+video,
+svg {
+    inline-size: 100%;
 }
 
 iframe {
-    inline-size: 100%;
-    block-size: 100%;
-    border: 0;
 }
 
 h1,
@@ -51,15 +48,16 @@ h4 {
 
 h1 {
     /*Using calc to adjust size to screen width*/
-    font-size: calc(2rem + 2vw);
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: calc(1.5rem + 2vw);
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
 h3 {
-    font-size: calc(1.25rem + 1vw);
+    font-size: 1.25rem;
     font-weight: lighter;
 }
 
@@ -73,8 +71,6 @@ ul,
 ol,
 li,
 dl {
-    font-family: Sarabun;
-    font-size: 1rem;
 }
 
 ol {
@@ -89,24 +85,9 @@ ul {
 a {
     outline-color: transparent;
     text-decoration: none;
-    color: green;
-}
-
-a:link {
-    color:;
-}
-
-a:visited {
-    color: rgba(90, 150, 90, 1);
-}
-
-a:focus {
-    background: rgba(100, 100, 200, 0.1);
 }
 
 a:hover {
-    background: green;
-    color: white;
     text-decoration: none;
 }
 
@@ -121,11 +102,6 @@ a:hover {
     margin-inline-start: -1rem;
 } */
 
-a:active {
-    color: rgba(170, 120, 250, 1);
-    background: rgb(120, 200, 120, 0.8);
-}
-
 @media screen and (max-width: 600px) {
     html {
         font-size: 20px;
@@ -133,9 +109,6 @@ a:active {
 }
 
 /* container/div for Responsive Design */
-
-.container {
-}
 
 .container div {
     /* flex: 1 auto; */
@@ -197,71 +170,6 @@ a:active {
     }
 
     .container header div:last-child {
-    }
-}
-
-/* Styles Specific to Footer */
-
-.container footer {
-    display: flex;
-    font-family: sans-serif;
-    font-weight: lighter;
-    color: white;
-    background: rgba(170, 120, 250, 1);
-    padding-block: 5vh;
-    line-height: 2rem;
-    justify-content: center;
-}
-
-.container footer > div {
-    padding-inline: 2vw;
-    padding-block-end: 2vh;
-    flex: 1;
-}
-
-.container footer div:nth-child(2),
-div:nth-child(3) {
-}
-
-.container footer div:last-child {
-    p {
-        font-size: 0.8rem;
-    }
-}
-
-.container footer div h4 {
-    font-weight: bold;
-}
-
-.container footer div p {
-    font-style: italic;
-    text-indent: 0;
-}
-
-.container footer div li {
-    list-style: none;
-    text-indent: 0;
-}
-
-.container footer div a {
-    color: white;
-}
-
-.container footer div a:hover {
-}
-
-@media screen and (max-width: 600px) {
-    .container footer {
-        display: block;
-        text-align: center;
-    }
-
-    .container footer div {
-        margin-block: 2rem;
-    }
-
-    .container footer div a {
-        line-height: 2rem;
     }
 }
 
@@ -358,7 +266,6 @@ article div.footnotes {
     }
 
     .container article div li {
-        text-indent: 0;
     }
 
     .container article div a {

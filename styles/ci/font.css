@@ -1,0 +1,15 @@
+.font-impact {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.font-lowercase {
+    text-transform: lowercase;
+}
+
+.font-light {
+    font-weight: lighter;
+}
+
+.text-right {
+    text-align: right;
+}

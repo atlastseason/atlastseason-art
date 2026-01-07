@@ -1,0 +1,93 @@
+:root {
+    --main-green: #4cac49ff;
+    --main-purple: #925ebf;
+    --main-grey: rgba(150, 200, 156, 0.8);
+    --light-grey: rgba(204, 230, 202, 0.5);
+}
+
+.transparent {
+    opacity: 0.4;
+}
+
+a {
+    color: var(--main-green);
+}
+
+a:visited {
+}
+
+a:focus {
+    background: var(--main-grey);
+}
+
+a:hover {
+    color: white;
+    background: var(--main-green);
+}
+
+blockquote {
+    background-color: beige;
+}
+
+.button-logo:hover {
+    background-color: unset;
+}
+
+.button:hover {
+}
+
+.button {
+}
+
+a:active,
+.button:active {
+    background: var(--main-purple);
+}
+
+.main-color {
+    background: var(--main-green);
+}
+
+.accent-color {
+    border-color: var(--main-purple);
+}
+
+.button:active {
+    background: var(--main-purple);
+}
+
+.wip:active {
+    background: var(--main-grey);
+}
+
+.white-text {
+    color: white;
+}
+
+.grey-text {
+    color: var(--main-grey);
+}
+
+.white-bg {
+    background: white;
+}
+
+.half-white-bg {
+    background: lightgrey;
+}
+
+.black-bg {
+    background: black;
+}
+
+.grey-bg {
+    background: grey;
+}
+
+.purple-bg {
+    background: var(--main-purple);
+}
+
+.green-bg {
+    background: var(--main-green);
+}

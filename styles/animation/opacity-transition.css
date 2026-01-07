@@ -1,0 +1,17 @@
+.opacity-transition {
+    opacity: 0.6;
+}
+
+.opacity-transition:hover {
+    opacity: 1;
+}
+
+.grey-transition:hover {
+    background-color: var(--main-grey);
+}
+
+@media screen and (max-width: 600px) {
+    .opacity-transition {
+        opacity: unset;
+    }
+}

@@ -1,0 +1,18 @@
+.grow {
+    scale: 1;
+}
+
+.grow:hover {
+    scale: 1.1;
+}
+
+.grow:active {
+    scale: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .grow:hover,
+    .grow:active {
+        scale: unset;
+    }
+}

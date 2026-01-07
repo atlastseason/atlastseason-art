@@ -49,6 +49,7 @@
     .showlinks > div {
         padding: 0;
         padding-block-end: 3rem;
+        inline-size: 80vw;
     }
 
     .showlinks h3 {

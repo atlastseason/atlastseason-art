@@ -25,29 +25,23 @@ nav ul ul {
     display: block;
 }
 
-/* nav ul ul ul {
-    list-style: disclosure-closed;
-    padding-inline: 1rem;
-} */
-
 nav a {
     outline-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
     text-decoration: none;
     transition: 0.2s;
 }
 
 nav a:link {
-    color: grey;
 }
 
 nav a:visited {
-    color: grey;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 nav a:hover {
     color: black;
     background: none;
-    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 600px) {

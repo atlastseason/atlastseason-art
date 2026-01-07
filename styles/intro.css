@@ -1,0 +1,50 @@
+.intro article {
+    text-align: center;
+    inline-size: 60%;
+    margin: 0 auto;
+}
+
+.intro article div {
+    padding-block: 2rem;
+    padding-inline: 1.5rem;
+}
+
+.intro img {
+    width: 200px;
+}
+
+.thumb {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thumb div {
+    inline-size: 200px;
+    padding-inline: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro article {
+        padding: 0;
+        margin: 0;
+        padding-inline: 1rem;
+        inline-size: unset;
+    }
+
+    .intro article div {
+        padding: 0;
+        padding-block: 1rem;
+    }
+
+    .introthumb {
+        /* display: grid;
+        grid: repeat(2, 300px) / auto-flow 100px;
+        justify-content: space-around; */
+    }
+
+    .introthumb div {
+        inline-size: 50px;
+        min-inline-size: 100px;
+    }
+}

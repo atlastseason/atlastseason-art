@@ -1,0 +1,42 @@
+.button:visited {
+}
+
+.button-logo {
+    border: none;
+    background-color: unset;
+}
+
+.button-box {
+    border: 2px solid black;
+}
+
+.click-expand {
+    cursor: zoom-in;
+}
+
+.hover-click {
+    cursor: pointer;
+}
+
+details:last-of-type summary {
+    list-style: none;
+    &::before {
+        content: "+ more";
+        color: var(--main-green);
+
+        padding: 0 5px;
+    }
+    [open] &::before {
+        content: "− less";
+    }
+}
+details:last-of-type summary::-webkit-details-marker {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .button-main {
+        inline-size: 150px;
+        block-size: 150px;
+    }
+}

@@ -1,0 +1,135 @@
+:root {
+    --large: 800px;
+    --big: 600px;
+    --great: 400px;
+    --chonk: 300px;
+    --normal: 200px;
+    --compact: 160px;
+    --petite: 80px;
+    --small: 40px;
+    --tiny: 20px;
+    --fit: 100%;
+}
+
+.large {
+    inline-size: var(--large);
+}
+
+.big {
+    inline-size: var(--big);
+}
+
+.great {
+    inline-size: var(--great);
+}
+
+.great-block {
+    block-size: var(--great);
+}
+
+.chonk {
+    inline-size: var(--chonk);
+}
+
+.min-chonk {
+    min-inline-size: var(--chonk);
+}
+
+.normal {
+    inline-size: var(--normal);
+}
+
+.normal-block {
+    block-size: var(--normal);
+}
+
+.min-normal {
+    min-inline-size: var(--normal);
+}
+
+.compact {
+    inline-size: var(--compact);
+}
+
+.compact-block {
+    block-size: var(--compact);
+}
+
+.petite {
+    inline-size: var(--petite);
+}
+
+.small {
+    inline-size: var(--small);
+}
+
+.small-block {
+    block-size: var(--small);
+}
+
+.tiny {
+    inline-size: var(--tiny);
+}
+
+.fit-inline {
+    inline-size: 100%;
+}
+
+.fit-text {
+    font-size: var(--fit);
+}
+
+.small-font {
+    font-size: 14px;
+}
+
+.half {
+    inline-size: 50%;
+}
+
+.flex-one {
+    flex: 1;
+}
+
+.flex-two {
+    flex: 2;
+}
+
+.grid-columns-two {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-columns-four {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 800px) {
+    .large {
+        inline-size: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .half {
+        inline-size: 100%;
+    }
+
+    .large,
+    .big,
+    .great,
+    .normal {
+        inline-size: 100%;
+    }
+    .mobile {
+        inline-size: 40vw;
+    }
+
+    .mobile-full {
+        padding: unset;
+        margin: unset;
+    }
+}
+
+.square {
+    aspect-ratio: 1/1;
+}
