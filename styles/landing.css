@@ -1,6 +1,7 @@
 @layer theme, ci, display,button,animated;
 
 @import url(theme.css) layer(theme);
+@import url(navglobal.css) layer(nav);
 @import url(ci/color.css) layer(color);
 @import url(ci/font.css) layer(font);
 
