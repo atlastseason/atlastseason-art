@@ -121,7 +121,7 @@
         inline-size: 100%;
     }
     .mobile {
-        inline-size: 40vw;
+        inline-size: 50%;
     }
 
     .mobile-full {
